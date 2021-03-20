@@ -1,0 +1,30 @@
+Write a program to print out Collatz sequence for a user-supplied number. Prompt the user for a positive integer which will become the first number in the sequence.
+
+•	If previous number is odd, the next number is 3 times the previous, plus 1.
+•	If previous number is even, the next number is half of the previous.
+
+After printing a Collatz sequence, your program should ask the user if they want to print out another sequence. The loop will continue until user decides to quit.
+
+Sample Run:
+----------- 
+Enter a positive number, or zero to quit: 57
+   57  172   86   43  130
+   65  196   98   49  148
+   74   37  112   56   28
+   14    7   22   11   34
+   17   52   26   13   40pr
+   20   10    5   16    8
+    4    2    1
+It took 32 iterations to arrive at 1.
+The average value is 51.66
+
+Enter the next positive number, or zero to quit: 11
+   11   34   17   52   26
+   13   40   20   10    5
+   16    8    4    2    1
+It took 14 iterations to arrive at 1.
+The average value is 18.50
+
+Enter the next positive number, or zero to quit: 0
+
+Have a nice day!
